@@ -1,0 +1,36 @@
+@media (max-width: 1220px) {
+  .publicacoes {
+    width: 75%;
+    margin: 1rem 12%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .publicacoes {
+    width: 45%;
+    margin: 1rem 8rem;
+  }
+}
+
+.publicacoes {
+  background-image: linear-gradient(#ffffff, #eaeaea);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.05rem 0.5rem 0rem #414141;
+  position: relative;
+}
+
+.img__name {
+  display: flex;
+  align-items: center;
+}
+
+.img__name > p {
+  margin-left: 0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.publicacoes > p {
+  padding: 0.7rem;
+}

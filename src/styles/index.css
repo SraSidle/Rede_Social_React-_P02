@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100%;
+ background-color:  #f0c9ea;
+}
+/*configuração geral, todos os inputs*/
+input:focus{
+  outline: 0;
+}
+

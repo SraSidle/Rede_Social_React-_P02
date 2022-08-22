@@ -1,0 +1,72 @@
+@media (min-width: 1200px) {
+  .listUsers {
+    margin-left: 50%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+  }
+  .pesquisar__user > form > input {
+    height: 2.5rem;
+    width: 15rem;
+    margin: 1rem 0.3rem 0 0;
+  }
+  .pesquisar__user {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .listUsers {
+    width: 75%;
+    margin: 2rem 12%;
+  }
+  .pesquisar__user > form > input {
+    height: 2.5rem;
+    width: 75%;
+    margin: 0.1rem 0.5rem;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .pesquisar__user {
+    margin-bottom: 2rem;
+  }
+}
+
+.todos-usuarios {
+  box-shadow: 0rem 0rem .5rem .1rem #414141;
+  border-radius: .5rem;
+}
+
+.pesquisar__user {
+  max-height: 6.5rem;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+}
+
+.pesquisar__user > form > input {
+  border-radius: 1rem;
+  border: 1px solid rgb(45, 97, 149);
+  background-color: #99adc7;
+  outline: 0;
+}
+
+.pesquisar__user > form > input:focus {
+  outline: 0;
+}
+
+#button-search {
+  padding: 0.8rem;
+  background-color: #99adc7;
+  color: white;
+  border: 1px solid rgb(45, 97, 149);
+  border-radius: 50%;
+}
+
+#button-search:hover {
+  background-color: #9db2cc;
+}

@@ -1,0 +1,42 @@
+.usuario {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#ffffff, #eaeaea);
+  padding: 0.2rem;
+  margin: 2px;
+  border: 1px solid gray;
+}
+
+.img__nickname {
+  display: flex;
+  align-items: center;
+}
+
+.nickname {
+  font-weight: bold;
+  font-size: medium;
+  margin-left: 0.2rem;
+  color: black;
+}
+
+.name {
+  margin-left: 0.4rem;
+  color: #4666b1;
+}
+
+.mini_perfil {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 2px solid #e8258e;
+}
+
+.descricao {
+  max-width: 100%;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
