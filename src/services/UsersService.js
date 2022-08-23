@@ -11,6 +11,20 @@ export const UsersServices = {
     fetch(Api.baseURL + `/usuario/${id}`, { method: "GET" }).then(
       parseResponse
     ),
+    updatePubliById: (id, publicacao) =>
+    fetch(
+    Api.baseURL + `/publicacoes/${id}`,
+      {
+        method: "PUT",
+        body: JSON.stringify(publicacao),
+        mode: "cors",
+        headers: { "Content-Type": "application/json" },
+      }
+    ).then(parseResponse),
+    deletePublicacaoById: (id) =>
+    fetch(Api.baseURL + `/publicacoes/${id}`, { method: "DELETE" }).then(
+      parseResponse
+    ),
   // createPubli: () =>
   //   fetch(Api.baseURL + "/publicacoes", {
   //     method: "POST",

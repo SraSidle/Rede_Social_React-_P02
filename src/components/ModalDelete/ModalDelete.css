@@ -1,0 +1,55 @@
+.choice {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text__p {
+  color: white;
+}
+
+.choice > button {
+  margin: 2rem 0.3rem ;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  font-weight: 700;
+  background-color: rgba(187, 187, 187, 0.649);
+  box-shadow: 0px 0px 0px 1px #00000030;
+}
+
+.yes {
+  color: red;
+  border: 1px solid red;
+  border-radius: .2rem;
+  background: white;
+}
+
+.yes:hover {
+  color: white;
+  background-color: red;
+}
+
+.no {
+  color: green;
+  border: 1px solid green;
+  background: white;
+}
+
+.no:hover {
+  color: white;
+  background-color: green;
+}
+span {
+  margin-left: 90%;
+}
+
+p {
+  max-width: 90%;
+}
+
+.alert {
+  font-weight: 600;
+  font-size: medium;
+  color: rgb(81, 81, 81);
+  margin-bottom: 0;
+}

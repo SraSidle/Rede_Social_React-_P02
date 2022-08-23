@@ -17,7 +17,6 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.05rem 0.5rem 0rem #414141;
-  position: relative;
 }
 
 .img__name {
@@ -33,4 +32,30 @@
 
 .publicacoes > p {
   padding: 0.7rem;
+}
+
+.icons-edit-delete{
+ display: flex;
+ justify-content: flex-end;
+}
+
+.icon{
+   font-size: x-large;
+   padding: .3rem;
+   border-radius: .5rem;
+}
+
+.icon:hover{
+  cursor: pointer;
+  background-color: #00000010;
+}
+
+.icon-edit{
+  border: none;
+  color: rgb(18, 130, 18);
+}
+
+.icon-delete{
+  border: none;
+  color: rgb(160, 1, 1);
 }
